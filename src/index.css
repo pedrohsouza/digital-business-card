@@ -7,10 +7,14 @@
 
 body {
   background: #23252c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #root {
-  height: 100vh;
+  padding: 30px 0;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
