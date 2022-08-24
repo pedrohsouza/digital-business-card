@@ -19,3 +19,9 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+@media (min-height: 859px) {
+  body {
+    height: 100vh;
+  }
+}
